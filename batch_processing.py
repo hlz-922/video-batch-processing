@@ -43,7 +43,7 @@ def multi_threading(video_folder_path, function_name):
 	function_name: the function that needs to be processed
 	'''
 
-	mov_filenames = [f for f in os.listdir(video_folder_path) if f.endswith('.MOV')]
+	mov_filenames = [f for f in os.listdir(video_folder_path) if ( f.endswith('.MOV') or f.endswith('.mov') )]
 
 	with tqdm(total=len(mov_filenames)) as pbar:
 		with ThreadPoolExecutor(max_workers=len(mov_filenames)) as ex:
