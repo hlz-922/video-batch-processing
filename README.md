@@ -12,4 +12,3 @@ This module is designed primarily for batch processing MOV files stored in one f
 ---
 The global variable that has to be defined before using this module:
 video_folder_path: the local path to the folders that contains all mov files
----
