@@ -1,4 +1,4 @@
-# video_batch_processing
+# video-batch-processing
 
 This module is designed primarily for batch processing MOV files stored in one folder using multi-threading. It contains the following features, and more details can be found in individual function documentation:
 
